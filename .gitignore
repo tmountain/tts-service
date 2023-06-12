@@ -1,0 +1,35 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore environment variables file
+.env
+
+# Ignore log files
+*.log
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore npm debug log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore production build output
+/build
+
+# Ignore IDE and editor specific files
+.idea/
+.vscode/
+*.sublime-*
+*.swp
+*.swo
+*.sublime-workspace
+
+# Ignore coverage reports
+coverage/
+
+# Ignore compiled binary addons
+/build/Release
+
